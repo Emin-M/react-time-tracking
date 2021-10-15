@@ -16,7 +16,7 @@
 
 .cards img {
     height: 20%;
-    transform: translateX(150%);
+    margin-left: 70%;
 }
 
 .cards .card-text {
