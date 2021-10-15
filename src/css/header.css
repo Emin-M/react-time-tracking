@@ -1,0 +1,63 @@
+header {
+    display: flex;
+    flex-direction: column;
+    height: 72%;
+    width: 20%;
+    border-radius: 20px;
+    margin-left: 50px;
+}
+
+header .head {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--blue);
+    height: 55%;
+    border-radius: 20px;
+    z-index: 2;
+}
+
+header .head .head-text {
+    margin: 10px;
+}
+
+.head-text h4 {
+    font-weight: 100;
+    padding: 0 15px;
+    opacity: .5;
+}
+
+.head-text h1 {
+    font-size: 2rem;
+    width: 90%;
+    font-weight: 300;
+    padding: 0 20px 15px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header .head img {
+    width: 110px;
+    margin: 10px;
+    border: 2px #fff solid;
+    border-radius: 50%;
+}
+
+header ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 20px;
+    background-color: var(--darkBlue);
+    height: 45%;
+    list-style: none;
+    border-radius: 0 0 20px 20px;
+    transform: translateY(-7%);
+}
+
+header ul li {
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+header .active {
+    font-size: 1.5rem;
+}

@@ -1,0 +1,58 @@
+@media only screen and (max-width: 1200px) {
+    .cards {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .container {
+        margin-top: 100px;
+        flex-direction: column;
+        height: 500%;
+    }
+
+    header {
+        height: 200px;
+        width: 90%;
+        margin: 0 20px;
+    }
+
+    header .head {
+        flex-direction: row;
+    }
+
+
+    .head-text h1 {
+        width: 80%;
+    }
+
+    header ul {
+        flex-direction: row;
+        transform: translateY(-13%);
+        padding-top: 40px;
+    }
+
+    .cards {
+        flex-direction: column;
+        width: 95%;
+        margin-left: 0;
+        transform: translateY(0);
+    }
+
+    .cards .card {
+        max-width: 95%;
+    }
+
+    .cards img {
+        height: 15%;
+    }
+
+    .hrs {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .hrs p {
+        transform: translateY(-19%);
+    }
+}
